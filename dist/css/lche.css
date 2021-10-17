@@ -1,0 +1,36 @@
+/*
+ * Specific CSS file associated to list-children-edit.php
+ */
+
+#children-table > thead > tr:nth-child(1) > th { border-bottom: 0px solid #ffffff; }
+#children-table > thead > tr:nth-child(2) > th { border-top: 0px solid #ffffff; border-bottom: 2px solid #ddd; }
+#children-table {
+	border-bottom: 1px solid #ddd;
+}
+#children-table > tbody > tr > td:nth-child(1) { width: 5%; text-align: center; }
+#children-table > tbody > tr > td:nth-child(2) { width: 25%; text-align: left; white-space: nowrap; }
+#children-table > tbody > tr > td:nth-child(3) { width: 15%; text-align: left; white-space: nowrap; }
+#children-table > tbody > tr > td:nth-child(4) { width: 5%; text-align: center; white-space: nowrap; }
+#children-table > tbody > tr > td:nth-child(5),
+#children-table > tbody > tr > td:nth-child(6) { width: 15%; text-align: center; }
+#children-table > tbody > tr > td:nth-child(7) { width: 20%; text-align: center; }
+
+.lvlInput, .clsInput {
+	height: 20px;
+    /*padding: 5px 10px;*/
+    font-size: 12px;
+    line-height: 1.5;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.lvlInput > option[value=""] { background-color: #ffffff; }
+.lvlInput > option[value="PS"] { background-color: #ebf396; }
+.lvlInput > option[value="MS"] { background-color: #fff492; }
+.lvlInput > option[value="GS"] { background-color: #ffde7a; }
+.lvlInput > option[value="CP"] { background-color: #f3bf72; }
+.lvlInput > option[value="CE1"] { background-color: #f5b960; }
+.lvlInput > option[value="CE2"] { background-color: #f99e50; }
+.lvlInput > option[value="CM1"] { background-color: #dadbe1; }
+.lvlInput > option[value="CM2"] { background-color: #bbbaba; }

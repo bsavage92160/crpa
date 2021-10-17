@@ -1,0 +1,69 @@
+/*
+ * Specific CSS file associated to edit-invoice-period.php
+ */
+
+#releve-table {
+	min-width: 750px;
+	border: none;
+}
+#releve-table > tbody > tr > td {
+	font-size: 90%;
+	white-space: nowrap;
+}
+#releve-table > tbody > tr > td:nth-child(2) {
+	text-align: right;
+	font-style: italic;
+	padding-right: 10px;
+}
+#releve-table > tbody > tr > td:nth-child(1){
+	font-size: 100%;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+#releve-table > tbody > tr > td:nth-child(3),
+#releve-table > tbody > tr > td:nth-child(4),
+#releve-table > tbody > tr > td:nth-child(5),
+#releve-table > tbody > tr > td:nth-child(6),
+#releve-table > tbody > tr > td:nth-child(7),
+#releve-table > tbody > tr > td:nth-child(8),
+#releve-table > tbody > tr > td:nth-child(9),
+#releve-table > tbody > tr > td:nth-child(10),
+#releve-table > tbody > tr > td:nth-child(11),
+#releve-table > tbody > tr > td:nth-child(12),
+#releve-table > tbody > tr > td:nth-child(13),
+#releve-table > tbody > tr > td:nth-child(14) {
+	width: 60px;
+}
+#releve-table > thead > tr:nth-child(1) > th:nth-child(1) {
+	border: none;
+}
+#releve-table > thead > tr:nth-child(1) > th:nth-child(2),
+#releve-table > thead > tr:nth-child(1) > th:nth-child(3),
+#releve-table > thead > tr:nth-child(1) > th:nth-child(4),
+#releve-table > thead > tr:nth-child(1) > th:nth-child(5),
+#releve-table > thead > tr:nth-child(1) > th:nth-child(6) {
+	border-top: 1px solid #ddd;
+}
+#releve-table > thead > tr:nth-child(2) > th {
+	font-size: 90%;
+	font-weight: normal;
+}
+#releve-table > thead > tr > th.today {
+	background-color: #404772;
+    color: white;
+}
+#releve-table .total td {
+	font-weight: bold;
+}
+#releve-table > tbody > tr:nth-child(2n-3) > td {
+	background-color: aliceblue;
+}
+/*#releve-table > tbody > tr:nth-child(2n-3) > td.today {
+	background-color: #404772;
+    color: white;
+}*/
+#releve-table > tbody > tr > td.today {
+	background-color: #404772;
+    color: white;
+}

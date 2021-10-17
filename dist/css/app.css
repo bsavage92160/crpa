@@ -1,0 +1,16 @@
+
+.today {
+	background-color: #404772;
+    color: white;
+}
+.inactive_day {
+	background:#f9f9f9;
+}
+.lb {
+	font-size: 90%;
+	font-weight: normal;
+}
+.lb-sm {
+	font-size: 80%;
+	font-weight: normal;
+}

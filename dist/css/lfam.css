@@ -1,0 +1,53 @@
+/*
+ * Specific CSS file associated to list-family.php
+ */
+
+.dataTables_filter > label {white-space: nowrap;}
+.dataTables_filter > label > input {display: inline-block;width: 200px;}
+.dataTables_length > label {white-space: nowrap;}
+.dataTables_length > label > select {display: inline-block;width: 100px;}
+.dataTables_wrapper .dataTables_paginate .paginate_button {padding: 0px;}
+table.dataTable tbody th, table.dataTable tbody td {padding: 0px 5px;}
+#family-table > thead > tr > th {border-bottom: 1px solid #ddd;}
+#family-table { border-bottom: 1px solid #ddd; }
+#family-table .inactive { background:#ededed url('../images/nistri.png'); }
+#family-table > tbody > tr > td:nth-child(1) {
+	width: 5%;
+	text-align: center;
+}
+#family-table > tbody > tr > td:nth-child(2) {
+	width: 20%;
+	text-align: left;
+}
+#family-table > tbody > tr > td:nth-child(3),
+#family-table > tbody > tr > td:nth-child(4) {
+	width: 15%; 
+	text-align: left;
+}
+#family-table > tbody > tr > td:nth-child(5) {
+	width: 35%;
+	text-align: left;
+}
+#family-table > tbody > tr > td:nth-child(6) {
+	width: 5%;
+	text-align: center;
+}
+#family-table > tbody > tr > td:nth-child(7) {
+	width: 5%;
+	text-align: center;
+	white-space: nowrap;
+}
+#family-table > tbody > tr > td a {
+	text-decoration: underline;
+}
+
+.dataTables_wrapper .dt-buttons {
+	float:right;
+	margin-left: 10px;
+}
+
+.form-check-label {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+}

@@ -1,0 +1,50 @@
+/*
+ * Specific CSS file associated to edit-invoice-period.php
+ */
+
+.custom > tbody > tr > td {padding-top: 5px;padding-bottom: 5px;}
+.custom > tbody > tr > td > button {line-height: 1;}
+.custom > tbody > tr > td:nth-child(2) { width: 15%; text-align: left; }
+
+.current > td { background-color: #d3fa84; }
+
+.closed  > td { color:#cecece; }
+
+.myinput { height: 25px; padding: 6px; font-size: 14px; line-height: 1; border-radius: 3px; display: inline-block; text-align: center; }
+.myinput-m { width: 200px; }
+.myinput-xs { width: 50px; }
+.myinput[name=title] { text-align: left; }
+
+#invoiceTable > thead > tr > th {border-bottom: 1px solid #ddd;}
+#invoiceTable { border-bottom: 1px solid #ddd; }
+
+#result { display: none; }
+#result > div { z-index: 99; position: absolute; left: 100px; top: 45px; width: 100%; }
+#result > div > div { display: block; text-align: center; font-size: 1.2rem; }
+#result > div > div > div {position: relative; display: inline-block; }
+#result > div > div > div > div { padding: 5px; padding-left: 100px; padding-right: 100px; font-weight: bold; }
+
+#infosFamTab > tbody > tr > td { font-size:90%; white-space: nowrap; }
+#infosFamTab > tbody > tr > td:nth-child(1) { padding-right: 10px; border-right: 1px solid #ddd; }
+#infosFamTab > tbody > tr > td:nth-child(2) { padding-left: 10px; padding-right: 10px; border-right: 1px solid #ddd; }
+#infosFamTab > tbody > tr > td:nth-child(3) { padding-left: 10px; }
+
+#itemTable {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px;}
+#itemTable > tbody > tr > td { background-color: #fff; border: 1px solid #ddd; text-align: center;}
+#itemTable > thead > tr > th { background-color: #ddd; border: 1px solid #ddd; text-align: center;}
+#itemTable > tfoot > tr > th { border-top: 1px solid #ddd; text-align: center;}
+#itemTable > tbody > tr:nth-of-type(odd) > td { background-color: #f9f9f9;}
+#itemTable > tbody > tr:hover > td { background-color: #f5f5f5;}
+
+#amountTab {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px; white-space: nowrap;}
+#amountTab > tbody > tr > td { padding:7px; font-weight: bold; }
+#amountTab > tbody > tr > td > label { font-weight: normal; }
+#amountTab > tbody > tr > td:nth-child(1) { width:50%; }
+#amountTab > tbody > tr > td:nth-child(2) { text-align:right; }
+#amountTab > tbody > tr > td:nth-child(4) { text-align:right; }
+#amountTab > tbody > tr > td:nth-child(6) { text-align:right; }
+#amountTab > tbody > tr > td > div { text-align:center; border:1px solid #cecece; padding:10px; border-radius: 20px; }
+
+#returnTab {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px; white-space: nowrap;}
+#returnTab > tbody > tr > td { padding:0px; font-size: 90%; }
+#returnTab > tbody > tr > td:nth-child(1) { text-align:right; width:0%; }

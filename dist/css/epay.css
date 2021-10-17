@@ -1,0 +1,49 @@
+/*
+ * Specific CSS file associated to edit-payment.php
+ */
+.form-group {
+	margin-bottom: 5px;
+}
+.form-tab {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.form-tab > tbody > tr > td {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+.form-tab > tbody > tr > td > input {
+	height: 25px;
+}
+
+
+
+#infosFamTab > tbody > tr > td { font-size:90%; white-space: nowrap; }
+#infosFamTab > tbody > tr > td:nth-child(1) { padding-right: 10px; border-right: 1px solid #ddd; }
+#infosFamTab > tbody > tr > td:nth-child(2) { padding-left: 10px; padding-right: 10px; border-right: 1px solid #ddd; }
+#infosFamTab > tbody > tr > td:nth-child(3) { padding-left: 10px; }
+
+#itemTable {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px;}
+#itemTable > tbody > tr > td { background-color: #fff; border: 1px solid #ddd; text-align: center;}
+#itemTable > thead > tr > th { background-color: #ddd; border: 1px solid #ddd; text-align: center;}
+#itemTable > tfoot > tr > th { border-top: 1px solid #ddd; text-align: center;}
+#itemTable > tbody > tr:nth-of-type(odd) > td { background-color: #f9f9f9;}
+#itemTable > tbody > tr:hover > td { background-color: #f5f5f5;}
+
+#amountTab {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px; white-space: nowrap;}
+#amountTab > tbody > tr > td { padding:7px; font-weight: bold; }
+#amountTab > tbody > tr > td > label { font-weight: normal; }
+#amountTab > tbody > tr > td:nth-child(1) { width:50%; }
+#amountTab > tbody > tr > td:nth-child(2) { text-align:right; }
+#amountTab > tbody > tr > td:nth-child(4) { text-align:right; }
+#amountTab > tbody > tr > td:nth-child(6) { text-align:right; }
+#amountTab > tbody > tr > td > div { text-align:center; border:1px solid #cecece; padding:10px; border-radius: 20px; }
+
+#returnTab {border-collapse: collapse; width:100%; padding: 0px; margin-top: 10px; white-space: nowrap;}
+#returnTab > tbody > tr > td { padding:0px; font-size: 90%; }
+#returnTab > tbody > tr > td:nth-child(1) { text-align:right; width:0%; }

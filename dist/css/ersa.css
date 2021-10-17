@@ -1,0 +1,115 @@
+/*
+ * Specific CSS file associated to edit-reservation.php
+ */
+
+.calendar_table {
+	width: 100%;
+	table-layout:fixed;
+	border: 0px;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 0px;
+}
+.calendar_table > thead > tr > th,
+.calendar_table > tbody > tr > td {
+	width: 20%;
+	vertical-align: top;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+	border-right: 5px solid #ffffff;
+	border-bottom: 5px solid #ffffff;
+	background-color: #fcebdc;
+}
+.calendar_table > thead > tr > th {
+	background-color: #ffffff;
+}
+.calendar_table > thead > tr > th:first-child {
+	width: 50px;
+}
+.calendar_table > tbody > tr > td:first-child {
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #999999;
+}
+.calendar_table .case_act {
+	width: 100%;
+    text-align: right;
+    display: inline-block;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px 0px 10px;
+    flex-flow: wrap;
+}
+.calendar_table .case_act > label {
+	font-size: 1.2rem;
+	font-weight: normal;
+	font-style: italic;
+	font-family: sans-serif;
+	-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+			-khtml-user-select: none; /* Konqueror HTML */
+				-moz-user-select: none; /* Old versions of Firefox */
+					-ms-user-select: none; /* Internet Explorer/Edge */
+						user-select: none; /* Non-prefixed version, currently */
+    white-space: nowrap;
+    min-width: 45px;
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.case_jour {
+	display: flex;
+	height: 20px;
+	text-align:center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-top: 2px;
+}
+
+.case_jour > div:nth-child(1) {
+    flex: 1;
+    padding-top: 5px;
+}
+
+.calendar_table td.case_empty {
+	background:#f9f9f9;
+	color: #cecece;
+}
+label.case_empty {
+	color: #cecece;
+}
+.calendar_table .case_inactive{
+	background:#ededed url('../../images/nistri.png');
+}
+.calendar_table .today {
+	/*background:#dff0d8;  #4eff90*/
+	/*background-color: #83edab;*/
+	background-color: #404772;
+    color: white;
+}
+
+#result { display: none; }
+#result > div { z-index: 99; position: absolute; top: 10px;width: 75%; }
+#result > div > div { display: block; text-align: center; font-size: 1rem; }
+#result > div > div > div {position: relative; display: inline-block; }
+#result > div > div > div > div { padding: 5px; padding-left: 50px; padding-right: 50px; font-weight: bold; }
+
+
+div.same_choice > label {
+	font-weight: normal;
+}
+div.same_choice {
+	font-size: 90%;
+}

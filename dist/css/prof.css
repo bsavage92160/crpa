@@ -1,0 +1,218 @@
+/*
+ * Specific CSS file associated to profile.php
+ */
+
+h2 {
+	text-transform: uppercase;
+    color: #3c83be;
+    margin: 0 0 5px 0;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.dalle {
+	float: left;
+    margin-left: 8px;
+    width: 120px;
+    height: 100px;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.dalle-radio_TdB {
+    box-shadow: 0px 0px 0px 1px rgba(98,98,98,0.2), 0px 0px 0px 0px rgba(255,255,255,0.9) inset, 0px 2px 2px rgba(0,0,0,0.15);
+    text-align: center;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #5eade9;
+}
+.dalle-radio_TdB:hover {
+	background-color: #004079;
+	cursor: pointer;
+}
+.dalle-radio_TdB > label {
+	text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 15px;
+    border-radius: 3px;
+    font-size: 1.4rem;
+	margin-top: 5px;
+}
+.dalle-radio_TdB > label > span {
+	font-size: 2.5rem;
+	height: 20px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.dalle-radio_Disabled {
+	background-color: #edeef1;
+	cursor: not-allowed;
+}
+.dalle-radio_Disabled:hover {
+	background-color: #edeef1;
+	cursor: not-allowed;
+}
+.dalle-radio_Disabled > label {
+	text-align: center;
+    cursor: not-allowed;
+    color: #c3c3c5;
+    line-height: 15px;
+    border-radius: 3px;
+    font-size: 1.4rem;
+	margin-top: 5px;
+}
+.noHover{
+    pointer-events: none;
+}
+.dalle-radio_Infos {
+    text-align: center;
+	height: 120px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+.dalle-radio_Infos > label {
+	text-align: center;
+    line-height: 15px;
+    border-radius: 3px;
+    font-size: 1.4rem;
+	margin-top: 5px;
+}
+.dalle-radio_Infos > label > img {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.dalle-radio_InfosBtn {
+	display:flex;
+	flex-direction: column;
+    justify-content: center;
+	height: 120px;
+    background-color: #ffffff;
+}
+.dalle-radio_InfosBtn > button {
+    width: 100%;
+    margin: 2px;
+    padding: 4px;
+    font-size: 80%;
+	background-color: #e3e4e9;
+}
+.dalle-radio_InfosBtn > button:hover {
+	background-color: #cacbcf;
+	font-weight: bold;
+}
+.span-sectionprincipale {
+	margin-left: 10px;
+    margin-top: 10px;
+}
+#documentNumber {
+	position: absolute;
+    width: 1.9em;
+    height: 1.9em;
+    border-radius: 99px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.9;
+    color: #fff;
+    opacity: .999;
+    background-color: #f8612e
+}
+.form-tab input[type=text], .form-tab input[type=email], input[type=password], .form-tab select {
+	height: 25px;
+	display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	margin: 2.5px;
+    padding: 5px;
+}
+.form-tab select {
+    padding: 0px 5px;
+}
+.form-tab input[readonly], .form-tab select[readonly] {
+    background-color: #eee;
+    opacity: 1;
+}
+.child-tab {
+	width: 100%;
+}
+.child-tab > tbody > tr > td {
+	padding: 2px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+.divC {
+	display:flex;
+	flex-direction: column;
+}
+.divR {
+	display:flex;
+	flex-direction: row;
+}
+input.hidden { width: 0px; height: 0px; margin: 0px; padding: 0px; outline: none; border: 0px; }
+.field-icon { float: right; margin-left: -25px; margin-top: -20px; position: relative; z-index: 2; }
+
+#financialTab > tbody > tr > td {
+	font-size: 90%;
+	padding: 2px;
+	vertical-align: top;
+}
+#financialTab > tbody > tr > td:nth-child(1) {
+     padding-top: 6px;
+}
+#financialTab > tbody > tr > td label {
+     margin-bottom: 0px;
+}
+#financialTab > tbody > tr > td input {
+	height: 20px;
+    font-size: 90%;
+}
+#financialTab > tbody > tr > td select {
+	height: 20px;
+    font-size: 90%;
+}
+#financialTab > tbody > tr:nth-child(3) > td:nth-child(2),
+#financialTab > tbody > tr:nth-child(3) > td:nth-child(3),
+#financialTab > tbody > tr:nth-child(4) > td:nth-child(2),
+#financialTab > tbody > tr:nth-child(4) > td:nth-child(3),
+#financialTab > tbody > tr:nth-child(5) > td:nth-child(2),
+#financialTab > tbody > tr:nth-child(5) > td:nth-child(3),
+#financialTab > tbody > tr:nth-child(15) > td:nth-child(2),
+#financialTab > tbody > tr:nth-child(15) > td:nth-child(3),
+#financialTab > tbody > tr:nth-child(15) > td:nth-child(4),
+#financialTab > tbody > tr:nth-child(22) > td:nth-child(2),
+#financialTab > tbody > tr:nth-child(22) > td:nth-child(3),
+#financialTab > tbody > tr:nth-child(22) > td:nth-child(4) {
+	padding-top: 6px;
+}
+
+#financialTabYearSelector > tbody > tr > td:nth-child(1) {
+     padding-top: 6px;
+	 padding-right: 10px;
+}
+#financialTabYearSelector > tbody > tr > td select {
+	height: 30px;
+    font-size: 100%;
+	font-weight: bold;
+	background-color: aliceblue;
+}
+
+small.error {
+	margin-top: 0px;
+	color: #dc2a26;
+	white-space: nowrap;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+#resultQFGrid { display: none; }
+#resultQFGrid > div { z-index: 99; position: absolute; left: 0;top: 15px;width: 100%; }
+#resultQFGrid > div > div { display: block; text-align: center; font-size: 1.2rem; }
+#resultQFGrid > div > div > div { position: relative; display: inline-block; }
+#resultQFGrid > div > div > div > div { padding: 5px; padding-left: 20px; padding-right: 20px; }

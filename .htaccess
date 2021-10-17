@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteBase /ena
+
+RewriteRule ^q/ausr pages/activate-user.php
+RewriteRule ^q/ecal pages/edit-calendar.php
+RewriteRule ^q/efam pages/edit-family.php
+RewriteRule ^q/einp pages/edit-invoice-period.php
+RewriteRule ^q/epay pages/edit-payment.php
+RewriteRule ^q/erlv pages/edit-releve.php
+RewriteRule ^q/ersa pages/edit-reservation.php
+RewriteRule ^q/eusr pages/edit-user.php
+RewriteRule ^q/ipay pages/invoice-pay.php
+RewriteRule ^q/ipdf pages/invoice-pdf.php
+RewriteRule ^q/invc pages/invoice.php
+RewriteRule ^q/lchl pages/list-children.php
+RewriteRule ^q/lche pages/list-children-edit.php
+RewriteRule ^q/lfam pages/list-family.php
+RewriteRule ^q/linv pages/list-invoice.php
+RewriteRule ^q/lusr pages/list-user.php
+RewriteRule ^q/parm pages/param.php
+RewriteRule ^q/prel pages/print-releve.php
+RewriteRule ^q/pres pages/print-reservation.php
+RewriteRule ^q/prof pages/profile.php
+RewriteRule ^q/stat pages/stats.php
+RewriteRule ^q/logi pages/login.php
+RewriteRule ^q/logo pages/logout.php
+
+RewriteRule ^q/payr pages/helloasso-return.php

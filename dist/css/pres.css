@@ -1,0 +1,254 @@
+/*
+ * Specific CSS file associated to print-reservation.php
+ */
+
+#page-wrapper > div > div:nth-child(1) {
+	height: 75px;
+    margin: 0;
+}
+#nv-page-wrapper {
+	background: white;
+	/*overflow-y: scroll;*/
+	padding-right: 0;
+	height: 548px;
+}
+#releve-table {
+	background: white;
+}
+
+.tbc {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.tbc > tbody > tr > td {
+	font-size: 1.25rem;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+.tbc > thead > tr > td {
+	border: none;
+}
+.tbc > thead > tr:nth-child(1) > td {
+	font-size: 1.35rem;
+	font-weight: bold;
+	border: none;
+}
+.tbh > thead > tr:nth-child(2) > td {
+	font-size: 1.1rem;
+	border: none;
+}
+.tbc tr {
+	display: flex;
+}
+.tbc td:nth-child(2),
+.tbc td:nth-child(3),
+.tbc td:nth-child(4),
+.tbc td:nth-child(5),
+.tbc td:nth-child(6),
+.tbc td:nth-child(7),
+.tbc td:nth-child(8),
+.tbc td:nth-child(9),
+.tbc td:nth-child(10),
+.tbc td:nth-child(11),
+.tbc td:nth-child(12),
+.tbc td:nth-child(13),
+.tbc td:nth-child(14) {
+	display: flex;
+	justify-content: center;
+	flex-basis: 60px;
+    max-width: 60px;
+}
+.tbc td:nth-child(1) {
+    display: flex;
+	height: auto;
+	min-width: 40px;
+	flex-wrap: wrap;
+	flex: 1;
+}
+.tbc td:nth-child(2),
+.tbc td:nth-child(4),
+.tbc td:nth-child(6),
+.tbc td:nth-child(11),
+.tbc td:nth-child(13) {
+	border-left: 2px solid #b2b2b2;
+}
+.tbc td:nth-child(3),
+.tbc td:nth-child(5),
+.tbc td:nth-child(7),
+.tbc td:nth-child(8),
+.tbc td:nth-child(9),
+.tbc td:nth-child(10),
+.tbc td:nth-child(12),
+.tbc td:nth-child(14) {
+	border-left: 1px solid #e5e5e5;
+}
+.tbc thead tr:nth-child(1) td:nth-child(2),
+.tbc thead tr:nth-child(1) td:nth-child(3),
+.tbc thead tr:nth-child(1) td:nth-child(5),
+.tbc thead tr:nth-child(1) td:nth-child(6){
+	display: flex;
+	justify-content: center;
+	flex-basis: 120px;
+    max-width: 120px;
+}
+.tbc thead tr:nth-child(1) td:nth-child(4) {
+	display: flex;
+	justify-content: center;
+	flex-basis: 300px;
+    max-width: 300px;
+}
+.tbc thead tr:nth-child(1) td {
+	background-color: white;
+}
+.tbc thead tr:nth-child(2) td {
+	background-color: white;
+	border-bottom: 1px solid #b2b2b2;
+}
+.tbc thead tr:nth-child(1) td:nth-child(2),
+.tbc thead tr:nth-child(1) td:nth-child(3),
+.tbc thead tr:nth-child(1) td:nth-child(4),
+.tbc thead tr:nth-child(1) td:nth-child(5),
+.tbc thead tr:nth-child(1) td:nth-child(6) {
+	border-left: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+.tbc thead tr:nth-child(2) td:nth-child(2),
+.tbc thead tr:nth-child(2) td:nth-child(4),
+.tbc thead tr:nth-child(2) td:nth-child(6),
+.tbc thead tr:nth-child(2) td:nth-child(11),
+.tbc thead tr:nth-child(2) td:nth-child(13) {
+	border-left: 2px solid #b2b2b2;
+}
+
+#releve-table > tfoot > tr > td:nth-child(2),
+#releve-table > tfoot > tr > td:nth-child(3),
+#releve-table > tfoot > tr > td:nth-child(4),
+#releve-table > tfoot > tr > td:nth-child(5),
+#releve-table > tfoot > tr > td:nth-child(6),
+#releve-table > tfoot > tr > td:nth-child(7),
+#releve-table > tfoot > tr > td:nth-child(8),
+#releve-table > tfoot > tr > td:nth-child(9),
+#releve-table > tfoot > tr > td:nth-child(10),
+#releve-table > tfoot > tr > td:nth-child(11),
+#releve-table > tfoot > tr > td:nth-child(12),
+#releve-table > tfoot > tr > td:nth-child(13),
+#releve-table > tfoot > tr > td:nth-child(14) {
+	display: flex;
+	justify-content: center;
+	flex-basis: 60px;
+    max-width: 60px;
+}
+#releve-table > tfoot > tr > td:nth-child(2),
+#releve-table > tfoot > tr > td:nth-child(4),
+#releve-table > tfoot > tr > td:nth-child(6),
+#releve-table > tfoot > tr > td:nth-child(11),
+#releve-table > tfoot > tr > td:nth-child(13) {
+	border-left: 2px solid #b2b2b2;
+}
+#releve-table > tfoot > tr > td:nth-child(3),
+#releve-table > tfoot > tr > td:nth-child(5),
+#releve-table > tfoot > tr > td:nth-child(7),
+#releve-table > tfoot > tr > td:nth-child(8),
+#releve-table > tfoot > tr > td:nth-child(9),
+#releve-table > tfoot > tr > td:nth-child(10),
+#releve-table > tfoot > tr > td:nth-child(12),
+#releve-table > tfoot > tr > td:nth-child(14) {
+	background-color: white;
+	border-left: 1px solid #e5e5e5;
+}
+#releve-table > tfoot > tr td {
+	font-size: 1.35rem;
+	font-weight: bold;
+}
+#releve-table > tfoot > tr > td {
+	border-top: 2px solid #b2b2b2;
+}
+#releve-table > thead > tr > td.today,
+#releve-table > tfoot > tr > td.today {
+	background-color: #404772;
+    color: white;
+}
+
+.tbc td:nth-child(1) > div {
+	flex: 1 1 auto;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.tbc td:nth-child(1) > div > div {
+	display: flex;
+}
+
+.tbc td:nth-child(1) > div > div > span {
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+@media print {
+	.tbc td:nth-child(2),
+	.tbc td:nth-child(3),
+	.tbc td:nth-child(4),
+	.tbc td:nth-child(5),
+	.tbc td:nth-child(6),
+	.tbc td:nth-child(7),
+	.tbc td:nth-child(8),
+	.tbc td:nth-child(9),
+	.tbc td:nth-child(10),
+	.tbc td:nth-child(11),
+	.tbc td:nth-child(12),
+	.tbc td:nth-child(13),
+	.tbc td:nth-child(14)	{
+		display: flex;
+		justify-content: center;
+		flex-basis: 40px;
+		max-width: 40px;
+	}
+	
+	#releve-table > tfoot > tr > td:nth-child(2),
+	#releve-table > tfoot > tr > td:nth-child(3),
+	#releve-table > tfoot > tr > td:nth-child(4),
+	#releve-table > tfoot > tr > td:nth-child(5),
+	#releve-table > tfoot > tr > td:nth-child(6),
+	#releve-table > tfoot > tr > td:nth-child(7),
+	#releve-table > tfoot > tr > td:nth-child(8),
+	#releve-table > tfoot > tr > td:nth-child(9),
+	#releve-table > tfoot > tr > td:nth-child(10),
+	#releve-table > tfoot > tr > td:nth-child(11),
+	#releve-table > tfoot > tr > td:nth-child(12),
+	#releve-table > tfoot > tr > td:nth-child(13),
+	#releve-table > tfoot > tr > td:nth-child(14)	{
+		display: flex;
+		justify-content: center;
+		flex-basis: 40px;
+		max-width: 40px;
+	}
+	
+	.tbc thead tr:nth-child(1) td,
+	.tbc thead tr:nth-child(2) td	{
+		font-size: 80%;
+		vertical-align: middle;
+	}
+	
+	.tbc thead tr:nth-child(1) td:nth-child(2),
+	.tbc thead tr:nth-child(1) td:nth-child(3),
+	.tbc thead tr:nth-child(1) td:nth-child(5),
+	.tbc thead tr:nth-child(1) td:nth-child(6){
+		display: flex;
+		justify-content: center;
+		flex-basis: 80px;
+		max-width: 80px;
+	}
+	.tbc thead tr:nth-child(1) td:nth-child(4) {
+		display: flex;
+		justify-content: center;
+		flex-basis: 200px;
+		max-width: 200px;
+	}
+}

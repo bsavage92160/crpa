@@ -1,0 +1,72 @@
+/*
+ * Specific CSS file associated to param.php
+ */
+.custom  > tbody > tr > td {
+	padding-top: 2px;padding-bottom: 2px;
+}
+.myinput {
+	height: 20px;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 1;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+}
+.form-tab {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.form-tab > tbody > tr > td {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+.form-tab > tbody > tr > td > label {
+	margin-bottom: 0px;
+}
+.form-tab > tbody > tr > td > small { 
+	margin-top: -2px;
+    display: grid;
+	font-style: italic;
+	font-size: 75%;
+	color: #7f7878;
+}
+.form-tab > tbody > tr > td > input, .form-tab > tbody > tr > td > select {
+	height: 25px;
+	display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-tab > tbody > tr > td > select {
+    padding: 0px 12px;
+}
+.form-tab > tbody > tr > td > input[readonly], .form-tab > tbody > tr > td > select[readonly] {
+    background-color: #eee;
+    opacity: 1;
+}
+.form-control-file {
+  display: block;
+  width: 100%;
+}
+.tech-tab > tbody > tr > td {
+	padding-bottom: 5px;
+}
+#financialTab > tbody > tr > td:nth-child(2), #financialTab > tbody > tr > td:nth-child(3) {
+	border-right-style: solid;
+    border-right-width: thin;
+    border-right-color: #e3dfdf;
+}

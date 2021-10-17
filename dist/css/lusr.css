@@ -1,0 +1,47 @@
+/*
+ * Specific CSS file associated to list-user.php
+ */
+
+.dataTables_filter > label {white-space: nowrap;}
+.dataTables_filter > label > input {display: inline-block;width: 200px;}
+.dataTables_length > label {white-space: nowrap;}
+.dataTables_length > label > select {display: inline-block;width: 100px;}
+.dataTables_wrapper .dataTables_paginate .paginate_button {padding: 0px;}
+table.dataTable tbody th, table.dataTable tbody td {padding: 0px 5px;}
+#user-table > thead > tr > th {border-bottom: 1px solid #ddd;}
+#user-table { border-bottom: 1px solid #ddd; }
+#user-table .inactive { background:#ededed url('../images/nistri.png'); }
+
+#user-table > tbody > tr > td:nth-child(1),
+#user-table > thead > tr > th:nth-child(1) {
+	width: 10%; text-align: left
+}
+
+#user-table > tbody > tr > td:nth-child(2),
+#user-table > thead > tr > th:nth-child(2),
+#user-table > tbody > tr > td:nth-child(3),
+#user-table > thead > tr > th:nth-child(3) {
+	width: 15%; text-align: left
+}
+
+#user-table > tbody > tr > td:nth-child(4),
+#user-table > thead > tr > th:nth-child(4) {
+	width: 30%; text-align: left
+}
+
+#user-table > tbody > tr > td:nth-child(5),
+#user-table > tbody > tr > td:nth-child(6) {
+	width: 15%; text-align: center
+}
+
+#user-table > tbody > tr > td a {
+	text-decoration: underline;
+	}
+
+.form-check-label {
+	font-size: 14px; font-weight: normal; font-style: italic; }
+
+.my-btn {
+    border: none;
+	background: none;
+}
